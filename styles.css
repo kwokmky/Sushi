@@ -13,7 +13,6 @@
   margin-bottom: 1em;
 }
 
-
 blockquote {
   border-left: 0;
 }
@@ -23,14 +22,14 @@ blockquote {
   color: #ddd;
   padding-bottom: 40px;
 }
-.jumbotron .form-group {
+.sushibackground .form-group {
   line-height: 1em;
 }
 
-.jumbotron label {
+.sushibackground label {
   color: white;
 }
-.jumbotron img {
+.sushibackground img {
   margin-top: 50px;
 }
 h2 {
