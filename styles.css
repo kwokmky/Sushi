@@ -1,6 +1,6 @@
 .sushibackground {
   padding-top: 90px;
-  min-height: 600px;
+  min-height: 400px;
   margin-bottom: 0;
   background-image: url('https://ow.roocdn.com/assets/images/campaign-landing-pages/hero/sushi.jpg');
   background-size: cover;
@@ -10,6 +10,7 @@
 .sushibackground h1 {
   font-family: 'Vast Shadow', cursive;
   color: white;
+  align: center;
   margin-bottom: 1em;
 }
 
