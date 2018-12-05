@@ -38,6 +38,7 @@ h2 {
 .img-circle {
     border-radius: 50%;
 }
+latest
 ul {
    padding: 10px;
    background: rgba(0,0,0,0.5);
@@ -49,6 +50,11 @@ ul {
    padding: 0px 10px 0px 10px;
  }
 
+.contact{
+  background-color: #2E3152
+}
+
+}
 .navbar-inverse {
   background-color: rgba(32, 35, 41,0.8);
 }
