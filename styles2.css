@@ -7,16 +7,11 @@
   background-attachment: fixed;
   margin: auto;
 }
-
 .sushibackground h1 {
   font-family: 'Vast Shadow', cursive;
   color: white;
   text-align: center;
   margin-bottom: 1em;
-}
-
-blockquote {
-  border-left: 0;
 }
 .sushibackground label {
   color: white;
@@ -25,8 +20,8 @@ blockquote {
   margin-top: 50px;
 }
 #nav li + li:before {
-    content: " | ";
-    padding: 0 10px;
+  content: " | ";
+  padding: 0 10px;
 }
 h1 {
   font-size: 70px;
@@ -34,19 +29,15 @@ h1 {
 h2 {
   margin-bottom: 1.5em;
 }
-
-.img-circle {
-    border-radius: 50%;
-}
 ul {
-   padding: 10px;
-   background: rgba(0,0,0,0.5);
-   text-align: center;
-   color: white;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  color: white;
  }
- li {
-   display: inline;
-   padding: 0px 10px 0px 10px;
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
  }
 .contact{
   background-color: #F58137;
@@ -83,25 +74,26 @@ ul {
     background: #ffffff;
 }
 header {
-     text-align: center;
-     background: url('http://dash.ga.co/assets/jeff-bg.png');
-     background-size: cover;
-     color: white;
-   }
-   a {
-     color: white;
-   }
-   img {
-     margin: 40px 0px 0px 0px;
-     border: 7px solid white;
-     border-radius: 20px;
-   }
-   @media (max-width: 500px) {
-     h1 {
-       font-size: 36px;
-       padding: 5px;
-     }
-     li {
-       padding: 5px;
-       display: block;
-     }
+  text-align: center;
+  background: url('http://dash.ga.co/assets/jeff-bg.png');
+  background-size: cover;
+  color: white;
+}
+a {
+  color: white;
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
