@@ -1,67 +1,64 @@
 .sushibackground {
   padding-top: 90px;
-  min-height: 200px;
-  margin-bottom: 0;
-  background-image: url('https://ow.roocdn.com/assets/images/campaign-landing-pages/hero/sushi.jpg');
-  background-size: cover;
+  min-height: 290px;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://ow.roocdn.com/assets/images/campaign-landing-pages/hero/sushi.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  margin:auto;
 }
-
 .sushibackground h1 {
-  font-family: 'Vast Shadow', cursive;
+  font-size: 80px;
   color: white;
   text-align: center;
   margin-bottom: 1em;
 }
-
 blockquote {
   border-left: 0;
-}
-.sushibackground label {
-  color: white;
-}
-.sushibackground img {
-  margin-top: 50px;
 }
 #nav li + li:before {
     content: " | ";
     padding: 0 10px;
 }
-h1 {
-  font-size: 70px;
-}
 h2 {
   margin-bottom: 1.5em;
 }
-
 .img-circle {
     border-radius: 50%;
 }
 ul {
-   padding: 10px;
+   padding: 15px;
    background: rgba(0,0,0,0.5);
    text-align: center;
    color: white;
  }
  li {
    display: inline;
-   padding: 0px 10px 0px 10px;
+   padding: 0px -10px 0px 10px;
+ }
+ hr {
+   border: 0;
+   height: 2px;
+   width: 75%;
+   background-image: -webkit-linear-gradient(left, #f0f0f0, #F58137, #f0f0f0);
+   background-image: -moz-linear-gradient(left, #f0f0f0, #F58137, #f0f0f0);
+   background-image: -ms-linear-gradient(left, #f0f0f0, #F58137, #f0f0f0);
+   background-image: -o-linear-gradient(left, #f0f0f0, #F58137, #f0f0f0);
  }
 .contact{
   background-color: #F58137;
   color: #ffffff;
 }
+.contact small {
+  color: #404040;
+}
 #social-buttons {
-  margin-top: 50px;
-}
-.btn-twitter {
-  color: white;
-}
-.btn-facebook {
-  color: white;
-}
-.btn-pinterest {
-  color: white;
+  margin-top: -10px;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -82,13 +79,15 @@ ul {
     background: #ffffff;
 }
    a {
-     color: white;
+     color: #FFFFFF;
    }
-   img {
-     margin: 40px 0px 0px 0px;
-     border: 7px solid white;
-     border-radius: 20px;
+   a:hover {
+     color: #FFFFFF;
+     background: #F58137;
+     text-decoration: line-through;
+     cursor: crosshair;
    }
+
    @media (max-width: 500px) {
      h1 {
        font-size: 36px;

@@ -1,61 +1,64 @@
 .sushibackground {
   padding-top: 90px;
-  min-height: 200px;
-  margin-bottom: 0;
-  background-image: url('https://www.nozomi.dk/wp-content/uploads/2018/01/sushi-1.jpg');
-  background-size: cover;
+  min-height: 290px;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+      url('https://www.nozomi.dk/wp-content/uploads/2018/01/sushi-1.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   margin: auto;
 }
 .sushibackground h1 {
-  font-family: 'Vast Shadow', cursive;
-  color: white;
+  font-size: 80px;
+  color: #FFFFFF;
   text-align: center;
   margin-bottom: 1em;
-}
-.sushibackground label {
-  color: white;
-}
-.sushibackground img {
-  margin-top: 50px;
 }
 #nav li + li:before {
   content: " | ";
   padding: 0 10px;
 }
-h1 {
-  font-size: 70px;
-}
 h2 {
   margin-bottom: 1.5em;
 }
+h3 {
+  color: #F58137;
+  font-weight: bold;
+}
+hr {
+  border: 0;
+  height: 2px;
+  width: 75%;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #555555, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #555555, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #555555, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #555555, #f0f0f0);
+}
 ul {
-  padding: 10px;
+  padding: 15px;
   background: rgba(0,0,0,0.5);
   text-align: center;
   color: white;
  }
 li {
   display: inline;
-  padding: 0px 10px 0px 10px;
+  padding: 0px -10px 0px 10px;
  }
-.contact{
-  background-color: #F58137;
-  color: #ffffff;
-  text-align: center;
-}
-#social-buttons {
-  margin-top: 50px;
-}
-.btn-twitter {
-  color: white;
-}
-.btn-facebook {
-  color: white;
-}
-.btn-pinterest {
-  color: white;
-}
+ .contact{
+   background-color: #F58137;
+   color: #ffffff;
+   text-align: center;
+ }
+ .contact small {
+   color: #404040;
+ }
+ #social-buttons {
+   margin-top: -10px;
+ }
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
@@ -75,8 +78,15 @@ li {
     background: #ffffff;
 }
 a {
-  color: white;
+  color: #FFFFFF;
 }
+a:hover {
+  color: #FFFFFF;
+  background: #F58137;
+  text-decoration: line-through;
+  cursor: crosshair;
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 36px;
