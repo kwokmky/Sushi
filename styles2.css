@@ -29,6 +29,10 @@ h1 {
 h2 {
   margin-bottom: 1.5em;
 }
+h3{
+  color: #F58137
+  font: montserrat;
+}
 ul {
   padding: 10px;
   background: rgba(0,0,0,0.5);
@@ -42,6 +46,7 @@ li {
 .contact{
   background-color: #F58137;
   color: #ffffff;
+  text-align: center;
 }
 #social-buttons {
   margin-top: 50px;
@@ -73,19 +78,8 @@ li {
 ::-webkit-scrollbar-thumb:hover {
     background: #ffffff;
 }
-header {
-  text-align: center;
-  background: url('http://dash.ga.co/assets/jeff-bg.png');
-  background-size: cover;
-  color: white;
-}
 a {
   color: white;
-}
-img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
 }
 @media (max-width: 500px) {
   h1 {
