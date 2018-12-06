@@ -37,11 +37,11 @@ ul {
    text-align: center;
    color: white;
  }
- li {
+li {
    display: inline;
    padding: 0px -10px 0px 10px;
  }
- hr {
+hr {
    border: 0;
    height: 2px;
    width: 75%;
